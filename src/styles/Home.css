@@ -180,11 +180,11 @@
 }
 @media only screen and (max-width: 768px) {
   .box1 {
-    top: 5.5%;
+    top: 7.5%;
   }
   .box2 {
     left: -10%;
-    bottom: -5%;
+    bottom: -2%;
   }
 }
 
