@@ -1,43 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/6.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="W drugiej połowie XIX wieku nie było już wieszczów, bardów, lecz pojawili się pisarze-naukowcy, pisarze-działacze czy pisarze-społecznicy."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="Nastąpiła instrumentalizacja literatury. Artyści zaczęli posługiwać się nim niczym narzędziem. Za pomocą swoich dzieł mieli na celu osiągnąć konkretne efekty."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="business.business" />
+    <meta
+      property="og:title"
+      content="Zależało im na tym, by odbiorcy odpowiednio reagowali na poruszane przez nich treści."
+    />
+    <meta property="og:url" content="https://www.slodkolandia.cba.pl" />
+    <meta
+      property="og:image"
+      content="https://www.slodkolandia.cba.pl/img/29.jpg"
+    />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="business:contact_data:street_address" content="Radom" />
+    <meta property="business:contact_data:locality" content="Radom" />
+    <meta property="business:contact_data:region" content="mazowieckie" />
+    <meta property="business:contact_data:postal_code" content="26-600" />
+    <meta property="business:contact_data:country_name" content="Polska" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.slodkolandia.cba.pl/favicon.ico"
+    /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://twitter.com/popcorn_wata" />
+    <meta
+      name="twitter:title"
+      content="Na rzecz użyteczności odarli literaturę z metafizyki, tak charakterystycznej dla romantyzmu. W problematyce nastąpił zwrot ku treściom społecznym."
+    />
+    <meta
+      name="twitter:description"
+      content="„Charakterystyczne jest odejście pozytywistów od typowych dla romantyzmu tematów dotyczących tego, co jednostkowe o niepowtarzalne oraz zainteresowanie tym co typowe”."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.slodkolandia.cba.pl/img/3.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Pozytywiści nie odrzucili jednak tradycji romantycznej w całości."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/31.jpg" />
+
+    <title>Pozytywizm</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Dmuchańce Warszawa, Lublin, Kielce, Radom",
+        "contentUrl": "https://www.youtube.com/watch?v=CY7C_w3LTZg",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://www.slodkolandia.cba.pl/img/2.jpg",
+        "uploadDate": "2021-12-13",
+        "description": "Szczególnie wysoko cenione wciąż pozostawały dzieła Mickiewicza, Słowackiego czy Krasińskiego."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://zamki-zjezdzalnie-dmuchane.blogspot.com/"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Pozytywizm",
+        "url": "https://www.slodkolandia.cba.pl/",
+        "sameAs": [
+          "https://www.facebook.com/wata.cukrowa.popcorn",
+          "https://www.google.pl/maps/place/%22S%C5%81ODKOLANDIA+wita:%22+%F0%9F%8E%AA+%E2%9C%94/@51.3998663,21.1651462,17z/data=!3m1!4b1!4m5!3m4!1s0x4718f76aaaaaaaab:0xe5f5c98b6b743863!8m2!3d51.399863!4d21.167335?hl=pl",
+          "https://twitter.com/popcorn_wata",
+          "https://www.youtube.com/channel/UCau05zZiK3kpTe06XtKXNKA",
+          "https://www.pinterest.com/watapopcorn/",
+          "https://www.instagram.com/ewa1989/"
+        ]
+      }
+    </script>
   </body>
 </html>
