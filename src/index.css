@@ -53,10 +53,9 @@
     --normal-font-font-size: 1rem;
   }
 
-  /* body {
+  body {
     margin: 0;
-    
-  } */
+  }
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
