@@ -182,11 +182,11 @@
 }
 @media only screen and (max-width: 768px) {
   .box1 {
-    top: 15.5%;
+    top: 20.5%;
   }
   .box2 {
     left: -10%;
-    bottom: -2%;
+    bottom: 2%;
   }
   .profileImg {
     height: 270px;
