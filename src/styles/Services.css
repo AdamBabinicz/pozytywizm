@@ -26,6 +26,7 @@
 }
 .service_text-section p {
   margin-bottom: var(--mb-2);
+  text-align: left;
 }
 .serviceImage {
   justify-self: center;
