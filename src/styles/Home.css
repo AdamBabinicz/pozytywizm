@@ -177,13 +177,18 @@
   .box .contentBox p {
     font-size: 12px;
   }
+}
+@media only screen and (max-width: 768px) {
   .box2 {
-    left: -5%;
+    left: -15%;
   }
 }
 
 @media only screen and (min-width: 1080px) {
   .homeImg {
     right: 10%;
+  }
+  .box2 {
+    left: -25%;
   }
 }
