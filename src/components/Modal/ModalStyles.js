@@ -64,10 +64,14 @@ export const ModalWrapper = styled(motion.div)`
 export const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 20px;
   width: 32px;
   height: 32px;
   padding: 0;
   z-index: 10;
+
+  @media only screen and (max-width: 768px) {
+    top: 30px;
+  }
 `;
