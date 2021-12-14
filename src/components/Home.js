@@ -8,6 +8,7 @@ import img3 from "../img/5.png";
 import { Modal } from "./Modal/Modal";
 import { BiDoorOpen } from "react-icons/bi";
 import { useInView } from "react-intersection-observer";
+import { TimelineLite } from "gsap";
 
 function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -38,6 +39,21 @@ function Home() {
   useEffect(() => {
     console.log(inView);
   }, [inView]);
+
+  useEffect(() => {
+    const tl = new TimelineLite({ delay: 0.3 });
+    tl.from(".homeTitle", {
+      duration: 0.5,
+      opacity: 0,
+      y: 15,
+      delay: 1.5,
+      ease: "back.out(1.7)",
+    }).fromTo(
+      ".profileBg",
+      { opacity: 0.5, scale: 0 },
+      { opacity: 1, scale: 1, ease: "elastic.out(1, 0.3" }
+    );
+  }, []);
 
   return (
     <>
