@@ -12,7 +12,7 @@ export const Background = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 99;
+  z-index: 999;
 `;
 
 export const ModalWrapper = styled(motion.div)`
@@ -26,7 +26,6 @@ export const ModalWrapper = styled(motion.div)`
   position: relative;
   overflow: scroll;
   border-radius: 10px;
-  z-index: 1000;
 
   h2 {
     margin-top: 2rem;
