@@ -81,7 +81,7 @@ function Home() {
               <img src={img2} alt="..." />
             </div>
             <div className="contentBox">
-              <h2>Maria Konopnicka</h2>
+              <h3>Maria Konopnicka</h3>
               <p>Na drodze</p>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Home() {
               <img src={img3} alt="..." />
             </div>
             <div className="contentBox">
-              <h2>Bolesław Prus</h2>
+              <h3>Bolesław Prus</h3>
               <p>Lalka</p>
             </div>
           </div>

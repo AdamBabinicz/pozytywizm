@@ -129,7 +129,7 @@
 .box .contentBox {
   margin-left: 10px;
 }
-.contentBox h2 {
+.contentBox h3 {
   font-size: 12px;
   font-weight: 700;
 }
@@ -173,7 +173,7 @@
     width: 160px;
     height: 60px;
   }
-  .box .contentBox h2 {
+  .box .contentBox h3 {
     font-size: 14px;
   }
   .box .contentBox p {
