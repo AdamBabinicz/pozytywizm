@@ -33,6 +33,7 @@
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  z-index: 0;
 }
 
 @media only screen and (min-width: 780px) {
