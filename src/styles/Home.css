@@ -181,8 +181,8 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .homeData {
-    margin-top: 4rem;
+  .homeData .button {
+    margin-top: -1rem;
   }
   .box1 {
     top: 20.5%;
