@@ -28,7 +28,7 @@ export const ModalWrapper = styled(motion.div)`
   border-radius: 10px;
 
   h2 {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     text-align: center;
     font-family: "Sorts Mill Goudy", serif;
   }
@@ -72,6 +72,6 @@ export const CloseModalButton = styled(MdClose)`
   z-index: 10;
 
   @media only screen and (max-width: 768px) {
-    top: 30px;
+    top: 35px;
   }
 `;
