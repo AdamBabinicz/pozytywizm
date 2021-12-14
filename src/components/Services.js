@@ -53,6 +53,7 @@ function Services() {
               box_desc={
                 "szeroko pojęta edukacja ludu, czyli podstawy społeczeństwa"
               }
+              box_link={"https://pl.wikipedia.org/wiki/Praca_u_podstaw"}
             />
             <ServiceBox
               imgName={img1}
@@ -60,16 +61,23 @@ function Services() {
               box_desc={
                 "pojmowanie całego społeczeństwa jako jednego wielkiego organizmu"
               }
+              box_link={"https://pl.wikipedia.org/wiki/Praca_organiczna"}
             />
             <ServiceBox
               imgName={img2}
               box_name={"Kwestia żydowska"}
               box_desc={"odrzucenie stereotypowego wizerunku Żyda"}
+              box_link={
+                "https://xn--jzyk-polski-rrb.pl/epoka-literacka/realizm/1280-sytuacja-zydow-w-pozytywizmie"
+              }
             />
             <ServiceBox
               imgName={img3}
               box_name={"Emancypacja kobiet"}
               box_desc={"kobieta równym mężczyźnie jest człowiekiem"}
+              box_link={
+                "https://aleklasa.pl/liceum/c111-jak-odpowiadac-z-polskiego/realizm-pozytywizm/c140-pozytywizm-w-polsce/pozytywizm-emancypacja-kobiet"
+              }
             />
           </div>
           <div className="service_text-section">
