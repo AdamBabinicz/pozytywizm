@@ -74,7 +74,7 @@ function Contact() {
           </p>
           <div
             ref={ref}
-            className="button"
+            className="button contact_button"
             onClick={toggleModal}
             // className={inView ? "" : "corner"}
           >

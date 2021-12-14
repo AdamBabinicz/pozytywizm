@@ -53,10 +53,10 @@
     --normal-font-font-size: 1rem;
   }
 
-  body {
+  /* body {
     margin: 0;
-    overflow-x: hidden;
-  }
+    
+  } */
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -78,6 +78,7 @@ body {
   font-family: var(--body-font);
   font-size: normal;
   color: var(--second-color);
+  overflow-x: hidden;
 }
 h1,
 h2,
