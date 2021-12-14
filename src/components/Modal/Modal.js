@@ -102,11 +102,8 @@ const Modal = ({ showModal, toggleModal }) => {
               rok 1864 – upadek powstania styczniowego, natomiast w Europie
               pierwszą fazę pozytywizmu wiąże się z wydaniem Kursu filozofii
               pozytywnej A. Comte’a – 1830-1842. Rozkwit pozytywizmu nastąpił w
-              Polsce w latach 80., a jego schyłek w przypadł na lata 90. XIX
-              wieku, ponieważ w 1891 roku swoje debiuty świętowali młodopolscy
-              poeci, zapowiadając tym samym nową epokę.
+              Polsce w latach 80., a jego schyłek w przypadł na lata 90.
             </p>
-
             <p>
               <em>matura100procent.pl/pozytywizm-opis-epoki</em>
             </p>
