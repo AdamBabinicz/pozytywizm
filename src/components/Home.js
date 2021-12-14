@@ -48,11 +48,29 @@ function Home() {
       y: 15,
       delay: 1.5,
       ease: "back.out(1.7)",
-    }).fromTo(
-      ".profileBg",
-      { opacity: 0.5, scale: 0 },
-      { opacity: 1, scale: 1, ease: "elastic.out(1, 0.3" }
-    );
+    })
+      .fromTo(
+        ".profileBg",
+        { opacity: 0.5, scale: 0 },
+        { opacity: 1, scale: 1, ease: "elastic.out(1, 0.3)" }
+      )
+      .from(".button", {
+        duration: 0.5,
+        opacity: 0,
+        y: 20,
+        ease: "bounce.out",
+      })
+      .from(
+        "homeSocial a",
+        {
+          y: 160,
+          opacity: 0,
+          stagger: 0.1,
+          duration: 0.8,
+          ease: "back.out(1.7)",
+        },
+        "Start"
+      );
   }, []);
 
   return (
