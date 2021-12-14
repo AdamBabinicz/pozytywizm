@@ -177,6 +177,9 @@
   .box .contentBox p {
     font-size: 12px;
   }
+  .box2 {
+    left: -15%;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
