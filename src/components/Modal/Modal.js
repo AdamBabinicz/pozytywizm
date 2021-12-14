@@ -98,12 +98,6 @@ const Modal = ({ showModal, toggleModal }) => {
               II połowie XIX wieku.
             </p>
             <p>
-              W Polsce datą rozpoczynającą nową epokę w dziejach kultury jest
-              rok 1864 – upadek powstania styczniowego, natomiast w Europie
-              pierwszą fazę pozytywizmu wiąże się z wydaniem Kursu filozofii
-              pozytywnej A. Comte’a – 1830-1842.
-            </p>
-            <p>
               <em>matura100procent.pl/pozytywizm-opis-epoki</em>
             </p>
 
