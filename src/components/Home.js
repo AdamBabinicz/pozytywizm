@@ -61,7 +61,7 @@ function Home() {
         ease: "bounce.out",
       })
       .from(
-        "homeSocial a",
+        ".homeSocial a",
         {
           y: 160,
           opacity: 0,
@@ -69,6 +69,17 @@ function Home() {
           duration: 0.8,
           ease: "back.out(1.7)",
         },
+        "Start"
+      )
+      .from(".profileImg", { duration: 0.8, opacity: 0 })
+      .from(
+        ".box1",
+        { duration: 0.8, opacity: 0, xPercent: 100, ease: "back.out(1.7)" },
+        "Start"
+      )
+      .from(
+        ".box2",
+        { duration: 0.8, opacity: 0, xPercent: 100, ease: "back.out(1.7)" },
         "Start"
       );
   }, []);
